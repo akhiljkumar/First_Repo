@@ -1,4 +1,4 @@
-FROM python:2.7.15-alpine3.6
+FROM python
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 EXPOSE 8000
